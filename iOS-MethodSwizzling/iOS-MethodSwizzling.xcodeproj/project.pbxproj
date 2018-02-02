@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAF0327202441C2005B51E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF0326202441C2005B51E1 /* AppDelegate.m */; };
+		ECAF032A202441C2005B51E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF0329202441C2005B51E1 /* ViewController.m */; };
+		ECAF032D202441C2005B51E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAF032B202441C2005B51E1 /* Main.storyboard */; };
+		ECAF032F202441C2005B51E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAF032E202441C2005B51E1 /* Assets.xcassets */; };
+		ECAF0332202441C2005B51E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAF0330202441C2005B51E1 /* LaunchScreen.storyboard */; };
+		ECAF0335202441C2005B51E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF0334202441C2005B51E1 /* main.m */; };
+		ECAF033F202441C2005B51E1 /* iOS_MethodSwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF033E202441C2005B51E1 /* iOS_MethodSwizzlingTests.m */; };
+		ECAF034A202441C2005B51E1 /* iOS_MethodSwizzlingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF0349202441C2005B51E1 /* iOS_MethodSwizzlingUITests.m */; };
+		ECAF0359202482F2005B51E1 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF0358202482F2005B51E1 /* UIViewController+Tracking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECAF033B202441C2005B51E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAF031A202441C2005B51E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAF0321202441C2005B51E1;
+			remoteInfo = "iOS-MethodSwizzling";
+		};
+		ECAF0346202441C2005B51E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAF031A202441C2005B51E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAF0321202441C2005B51E1;
+			remoteInfo = "iOS-MethodSwizzling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECAF0322202441C2005B51E1 /* iOS-MethodSwizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-MethodSwizzling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAF0325202441C2005B51E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECAF0326202441C2005B51E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECAF0328202441C2005B51E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECAF0329202441C2005B51E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECAF032C202441C2005B51E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECAF032E202441C2005B51E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECAF0331202441C2005B51E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECAF0333202441C2005B51E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAF0334202441C2005B51E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECAF033A202441C2005B51E1 /* iOS-MethodSwizzlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-MethodSwizzlingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAF033E202441C2005B51E1 /* iOS_MethodSwizzlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_MethodSwizzlingTests.m; sourceTree = "<group>"; };
+		ECAF0340202441C2005B51E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAF0345202441C2005B51E1 /* iOS-MethodSwizzlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-MethodSwizzlingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAF0349202441C2005B51E1 /* iOS_MethodSwizzlingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_MethodSwizzlingUITests.m; sourceTree = "<group>"; };
+		ECAF034B202441C2005B51E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAF0357202482F2005B51E1 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		ECAF0358202482F2005B51E1 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAF031F202441C2005B51E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAF0337202441C2005B51E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAF0342202441C2005B51E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAF0319202441C2005B51E1 = {
+			isa = PBXGroup;
+			children = (
+				ECAF0324202441C2005B51E1 /* iOS-MethodSwizzling */,
+				ECAF033D202441C2005B51E1 /* iOS-MethodSwizzlingTests */,
+				ECAF0348202441C2005B51E1 /* iOS-MethodSwizzlingUITests */,
+				ECAF0323202441C2005B51E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAF0323202441C2005B51E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF0322202441C2005B51E1 /* iOS-MethodSwizzling.app */,
+				ECAF033A202441C2005B51E1 /* iOS-MethodSwizzlingTests.xctest */,
+				ECAF0345202441C2005B51E1 /* iOS-MethodSwizzlingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAF0324202441C2005B51E1 /* iOS-MethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF0325202441C2005B51E1 /* AppDelegate.h */,
+				ECAF0326202441C2005B51E1 /* AppDelegate.m */,
+				ECAF0328202441C2005B51E1 /* ViewController.h */,
+				ECAF0329202441C2005B51E1 /* ViewController.m */,
+				ECAF032B202441C2005B51E1 /* Main.storyboard */,
+				ECAF032E202441C2005B51E1 /* Assets.xcassets */,
+				ECAF0330202441C2005B51E1 /* LaunchScreen.storyboard */,
+				ECAF0333202441C2005B51E1 /* Info.plist */,
+				ECAF0334202441C2005B51E1 /* main.m */,
+				ECAF0357202482F2005B51E1 /* UIViewController+Tracking.h */,
+				ECAF0358202482F2005B51E1 /* UIViewController+Tracking.m */,
+			);
+			path = "iOS-MethodSwizzling";
+			sourceTree = "<group>";
+		};
+		ECAF033D202441C2005B51E1 /* iOS-MethodSwizzlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF033E202441C2005B51E1 /* iOS_MethodSwizzlingTests.m */,
+				ECAF0340202441C2005B51E1 /* Info.plist */,
+			);
+			path = "iOS-MethodSwizzlingTests";
+			sourceTree = "<group>";
+		};
+		ECAF0348202441C2005B51E1 /* iOS-MethodSwizzlingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF0349202441C2005B51E1 /* iOS_MethodSwizzlingUITests.m */,
+				ECAF034B202441C2005B51E1 /* Info.plist */,
+			);
+			path = "iOS-MethodSwizzlingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAF0321202441C2005B51E1 /* iOS-MethodSwizzling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAF034E202441C2005B51E1 /* Build configuration list for PBXNativeTarget "iOS-MethodSwizzling" */;
+			buildPhases = (
+				ECAF031E202441C2005B51E1 /* Sources */,
+				ECAF031F202441C2005B51E1 /* Frameworks */,
+				ECAF0320202441C2005B51E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-MethodSwizzling";
+			productName = "iOS-MethodSwizzling";
+			productReference = ECAF0322202441C2005B51E1 /* iOS-MethodSwizzling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECAF0339202441C2005B51E1 /* iOS-MethodSwizzlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAF0351202441C2005B51E1 /* Build configuration list for PBXNativeTarget "iOS-MethodSwizzlingTests" */;
+			buildPhases = (
+				ECAF0336202441C2005B51E1 /* Sources */,
+				ECAF0337202441C2005B51E1 /* Frameworks */,
+				ECAF0338202441C2005B51E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAF033C202441C2005B51E1 /* PBXTargetDependency */,
+			);
+			name = "iOS-MethodSwizzlingTests";
+			productName = "iOS-MethodSwizzlingTests";
+			productReference = ECAF033A202441C2005B51E1 /* iOS-MethodSwizzlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECAF0344202441C2005B51E1 /* iOS-MethodSwizzlingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAF0354202441C2005B51E1 /* Build configuration list for PBXNativeTarget "iOS-MethodSwizzlingUITests" */;
+			buildPhases = (
+				ECAF0341202441C2005B51E1 /* Sources */,
+				ECAF0342202441C2005B51E1 /* Frameworks */,
+				ECAF0343202441C2005B51E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAF0347202441C2005B51E1 /* PBXTargetDependency */,
+			);
+			name = "iOS-MethodSwizzlingUITests";
+			productName = "iOS-MethodSwizzlingUITests";
+			productReference = ECAF0345202441C2005B51E1 /* iOS-MethodSwizzlingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAF031A202441C2005B51E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zhangzhiliang;
+				TargetAttributes = {
+					ECAF0321202441C2005B51E1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					ECAF0339202441C2005B51E1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECAF0321202441C2005B51E1;
+					};
+					ECAF0344202441C2005B51E1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECAF0321202441C2005B51E1;
+					};
+				};
+			};
+			buildConfigurationList = ECAF031D202441C2005B51E1 /* Build configuration list for PBXProject "iOS-MethodSwizzling" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAF0319202441C2005B51E1;
+			productRefGroup = ECAF0323202441C2005B51E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAF0321202441C2005B51E1 /* iOS-MethodSwizzling */,
+				ECAF0339202441C2005B51E1 /* iOS-MethodSwizzlingTests */,
+				ECAF0344202441C2005B51E1 /* iOS-MethodSwizzlingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAF0320202441C2005B51E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAF0332202441C2005B51E1 /* LaunchScreen.storyboard in Resources */,
+				ECAF032F202441C2005B51E1 /* Assets.xcassets in Resources */,
+				ECAF032D202441C2005B51E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAF0338202441C2005B51E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAF0343202441C2005B51E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAF031E202441C2005B51E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAF032A202441C2005B51E1 /* ViewController.m in Sources */,
+				ECAF0359202482F2005B51E1 /* UIViewController+Tracking.m in Sources */,
+				ECAF0335202441C2005B51E1 /* main.m in Sources */,
+				ECAF0327202441C2005B51E1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAF0336202441C2005B51E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAF033F202441C2005B51E1 /* iOS_MethodSwizzlingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAF0341202441C2005B51E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAF034A202441C2005B51E1 /* iOS_MethodSwizzlingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECAF033C202441C2005B51E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAF0321202441C2005B51E1 /* iOS-MethodSwizzling */;
+			targetProxy = ECAF033B202441C2005B51E1 /* PBXContainerItemProxy */;
+		};
+		ECAF0347202441C2005B51E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAF0321202441C2005B51E1 /* iOS-MethodSwizzling */;
+			targetProxy = ECAF0346202441C2005B51E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECAF032B202441C2005B51E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAF032C202441C2005B51E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECAF0330202441C2005B51E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAF0331202441C2005B51E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECAF034C202441C2005B51E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECAF034D202441C2005B51E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAF034F202441C2005B51E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "iOS-MethodSwizzling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-MethodSwizzling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECAF0350202441C2005B51E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "iOS-MethodSwizzling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-MethodSwizzling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECAF0352202441C2005B51E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-MethodSwizzlingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-MethodSwizzlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-MethodSwizzling.app/iOS-MethodSwizzling";
+			};
+			name = Debug;
+		};
+		ECAF0353202441C2005B51E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-MethodSwizzlingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-MethodSwizzlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-MethodSwizzling.app/iOS-MethodSwizzling";
+			};
+			name = Release;
+		};
+		ECAF0355202441C2005B51E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-MethodSwizzlingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-MethodSwizzlingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-MethodSwizzling";
+			};
+			name = Debug;
+		};
+		ECAF0356202441C2005B51E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS-MethodSwizzlingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "difire.iOS-MethodSwizzlingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-MethodSwizzling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAF031D202441C2005B51E1 /* Build configuration list for PBXProject "iOS-MethodSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAF034C202441C2005B51E1 /* Debug */,
+				ECAF034D202441C2005B51E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAF034E202441C2005B51E1 /* Build configuration list for PBXNativeTarget "iOS-MethodSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAF034F202441C2005B51E1 /* Debug */,
+				ECAF0350202441C2005B51E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAF0351202441C2005B51E1 /* Build configuration list for PBXNativeTarget "iOS-MethodSwizzlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAF0352202441C2005B51E1 /* Debug */,
+				ECAF0353202441C2005B51E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAF0354202441C2005B51E1 /* Build configuration list for PBXNativeTarget "iOS-MethodSwizzlingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAF0355202441C2005B51E1 /* Debug */,
+				ECAF0356202441C2005B51E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAF031A202441C2005B51E1 /* Project object */;
+}
